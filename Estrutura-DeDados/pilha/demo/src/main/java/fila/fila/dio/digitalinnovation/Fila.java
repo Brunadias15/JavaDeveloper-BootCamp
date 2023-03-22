@@ -1,4 +1,5 @@
-package fila.one.digitalinnovation;
+package fila.dio.digitalinnovation;
+
 public class Fila {
     
     private No refNoEntradaFila;
