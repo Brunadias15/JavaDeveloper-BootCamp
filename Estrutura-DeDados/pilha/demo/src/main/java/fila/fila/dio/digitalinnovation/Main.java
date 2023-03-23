@@ -3,12 +3,12 @@ package fila.dio.digitalinnovation;
 public class Main {
     public static void main(String[] args) {
         
-        Fila minhaFila = new Fila();
+        Fila<String> minhaFila = new Fila<>();
 
-        minhaFila.enquete(new No("primeiro"));
-        minhaFila.enquete(new No("segundo"));
-        minhaFila.enquete(new No("terceiro"));
-        minhaFila.enquete(new No("quarto"));
+        minhaFila.enquete("primeiro");
+        minhaFila.enquete("segundo");
+        minhaFila.enquete("terceiro");
+        minhaFila.enquete("quarto");
 
         System.out.println(minhaFila);
 
@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println(minhaFila);
 
-        minhaFila.enquete(new No("ultimo"));
+        minhaFila.enquete("ultimo");
 
         System.out.println(minhaFila);
 
